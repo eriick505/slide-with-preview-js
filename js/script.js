@@ -2,6 +2,7 @@ import Slide from "./slide.js";
 
 const slide = new Slide(".slide", ".slide-wrapper");
 slide.init();
-slide.changeSlide(2);
+slide.changeSlide(3);
+slide.activeNextSlide();
 
 console.log(slide);
